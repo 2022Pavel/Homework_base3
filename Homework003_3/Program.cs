@@ -13,13 +13,13 @@ void Cube(int[] cube)
     counter++;
   }
 }
-void PrintArry(int[] coll)
+void PrintArry(int[] col)
 {
-  int count = coll.Length;
+  int count = col.Length;
   int index = 1;
   while(index < count)
   {
-    Console.Write(coll[index]+ " ");
+    Console.Write(col[index]+ " ");
     index++;
   }
 } 
